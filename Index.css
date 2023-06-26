@@ -1,0 +1,82 @@
+/* Generelle stiler */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Endret bakgrunnsfarge */
+    font-family: 'Roboto', sans-serif; /* Endret font til Roboto */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Stiler for header */
+header {
+    align-self: flex-end;
+    padding: 1.5rem;
+}
+
+.logo {
+    height: 5rem;
+}
+
+/* Stiler for innhold */
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.title {
+    text-align: center;
+    color: #325945; /* Endret skriftfarge */
+    font-size: 3.6rem; /* Økt tekststørrelse */
+    font-weight: lighter;
+}
+
+.iframe-container {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin-top: 1rem;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: #ffffff;
+}
+
+/* Stiler for footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.background-image {
+    width: 100%;
+}
