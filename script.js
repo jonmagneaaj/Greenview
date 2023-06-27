@@ -35,6 +35,9 @@ window.addEventListener('DOMContentLoaded', function () {
         imageElement.classList.add('logo');
         imageElement.style.height = '10rem'; // Endret størrelsen til 10 rem
   
+        // Opprett et nytt div-element
+        var newTitleElement = document.createElement('div');
+
         // Opprett et nytt tittel-element
         var newTitleElement = document.createElement('h1');
         newTitleElement.classList.add('title');
