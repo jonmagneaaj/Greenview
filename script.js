@@ -1,8 +1,8 @@
 window.addEventListener('DOMContentLoaded', function () {
     var contentData = [
-      { title: "De siste syv dager", url: "https://app.powerbi.com/view?r=eyJrIjoiZTVlYzY2ODAtYTlhYy00Y2ZkLTk5MjctYThlNmM5OTk5ZTMzIiwidCI6IjdhZWU3ZTdhLTI4OTQtNDZhMy1iNmJmLTk2NjMxZjg3OGUyOCJ9", loaded: false },
-      { title: "Spart CO2", url: "https://app.powerbi.com/view?r=eyJrIjoiOGE2ZGU0NTUtZGU5ZC00YmIyLWFmOTAtMjY5NTBkMGI5YzI5IiwidCI6IjdhZWU3ZTdhLTI4OTQtNDZhMy1iNmJmLTk2NjMxZjg3OGUyOCJ9", loaded: false },
-      { title: "Oversikt over brukt energi", url: "https://app.powerbi.com/view?r=eyJrIjoiMWE4MmU3Y2EtYjk3YS00NDU2LWJjNmUtM2E0NjBlNWYwOGFkIiwidCI6IjdhZWU3ZTdhLTI4OTQtNDZhMy1iNmJmLTk2NjMxZjg3OGUyOCJ9", loaded: false },
+      { title: "Energi per dag", url: "https://app.powerbi.com/view?r=eyJrIjoiZTVlYzY2ODAtYTlhYy00Y2ZkLTk5MjctYThlNmM5OTk5ZTMzIiwidCI6IjdhZWU3ZTdhLTI4OTQtNDZhMy1iNmJmLTk2NjMxZjg3OGUyOCJ9", loaded: false },
+      { title: "Vi sparer CO2", url: "https://app.powerbi.com/view?r=eyJrIjoiOGE2ZGU0NTUtZGU5ZC00YmIyLWFmOTAtMjY5NTBkMGI5YzI5IiwidCI6IjdhZWU3ZTdhLTI4OTQtNDZhMy1iNmJmLTk2NjMxZjg3OGUyOCJ9", loaded: false },
+      { title: "Varme og kjøling året rundt", url: "https://app.powerbi.com/view?r=eyJrIjoiMWE4MmU3Y2EtYjk3YS00NDU2LWJjNmUtM2E0NjBlNWYwOGFkIiwidCI6IjdhZWU3ZTdhLTI4OTQtNDZhMy1iNmJmLTk2NjMxZjg3OGUyOCJ9", loaded: false },
       { title: "Hvordan vi gjør det", url: "https://app.powerbi.com/view?r=eyJrIjoiZTZlNjc3MDItMmI5OC00YmIwLTkwYjQtNjQ2NjdhMmY0YTVkIiwidCI6IjdhZWU3ZTdhLTI4OTQtNDZhMy1iNmJmLTk2NjMxZjg3OGUyOCJ9", loaded: false },
       { title: "Hvordan vi gjør det", url: "https://app.powerbi.com/view?r=eyJrIjoiZTZlNjc3MDItMmI5OC00YmIwLTkwYjQtNjQ2NjdhMmY0YTVkIiwidCI6IjdhZWU3ZTdhLTI4OTQtNDZhMy1iNmJmLTk2NjMxZjg3OGUyOCJ9", loaded: false }
     ];

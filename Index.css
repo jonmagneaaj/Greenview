@@ -79,4 +79,7 @@ footer {
 
 .background-image {
     width: 100%;
+    position: absolute; /* Legg til absolutt posisjonering */
+    bottom: 0; /* Juster posisjon til bunnen */
+    left: 0;
 }
