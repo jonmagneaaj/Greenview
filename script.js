@@ -61,6 +61,6 @@ window.addEventListener('DOMContentLoaded', function () {
     }
   
     // Sett opp en intervalfunksjon for oppdatering
-    updateInterval = setInterval(updateContent, 5000);
+    updateInterval = setInterval(updateContent, 7000);
   });
   
