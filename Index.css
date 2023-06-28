@@ -4,7 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #fff; /* Endret bakgrunnsfarge */
-    font-family: 'Roboto', sans-serif; /* Endret font til Roboto */
+    font-family: 'Roboto','Arial', sans-serif; /* Endret font til Roboto */
 }
 
 body {
